@@ -1,0 +1,145 @@
+/*fonts*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap') */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap') */
+
+body{
+  background-image:url("files/bgImage.jpg");
+  background-size:100vh 100vw;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+nav{
+  color:violet;
+  font-family:'Ubuntu','sans-serif';
+}
+
+nav ul{
+  display:flex;
+  align-items:center;
+  list-style-type:none;
+  height:95px;
+  background-color:black;
+}
+
+nav ul li{
+  margin-left: 10px;
+}
+
+.brand img{
+  height:80px;
+  
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+}
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size:20;
+  color:violet;
+}
+
+.container{
+  min-height:70vh;
+  background-color:black;
+  color:white;
+  font-family: "Roboto", sans-serif;
+  display:flex;
+  margin:20px auto;
+  width:70%;
+  padding:30px;
+  border-radius:20px;
+  background-image:url("files/background_image.jpg");
+  text-align:center;
+}
+
+.bottom{
+  position:stick;
+  height:100px;
+  background-color:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+
+.icons{
+  margin-top:2px;
+  display:flex;
+  height:50px;
+  width:50px;
+}
+
+#myProgressBar{
+  width:150vh;
+  cursor:pointer;
+}
+
+.icons img{
+  cursor:pointer;
+}
+
+.firstSong{
+  border-radius:80px;
+  height:30px;
+  width:30px;
+  margin:0px 12px;
+}
+
+.songItem{
+  height:50px;
+  display:flex;
+  background-color:rgb(128,0,128,.3);
+  color:black;
+  margin:12px;
+  justify-content:space-between;
+  align-items:center;
+  border-radius:34px;
+  width:175%;
+  font-size:24px;
+}
+
+.listening{
+  height: 300px;
+  width: 243px;
+  border-radius: 440px;
+  position: relative;
+  left: 481px;
+  opacity:0;
+  transition: opacity 1s ease-in;
+  border:10px solid black;
+}
+
+.icons2{
+  margin-left: 28px;
+  height: 16px;
+  width: 31px;
+  cursor:pointer;
+}
+
+.bottomImg{
+  height:29px;
+  width:152px;
+  margin:10px;
+  opacity:0;
+  transition: opacity 1s ease-in;
+}
+
+.songInfo{
+  color:white;
+  position:absolute;
+  left:13vw;
+  display:flex;
+  align-items:center;
+  
+}
